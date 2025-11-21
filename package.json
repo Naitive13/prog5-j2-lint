@@ -1,0 +1,32 @@
+{
+  "name": "prog5-j2-lint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naitive13/prog5-j2-lint.git"
+  },
+  "keywords": [
+    "eslint",
+    "typescript"
+  ],
+  "author": "Naitive13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naitive13/prog5-j2-lint/issues"
+  },
+  "homepage": "https://github.com/Naitive13/prog5-j2-lint#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.47.0"
+  }
+}
