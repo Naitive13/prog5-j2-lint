@@ -1,4 +1,4 @@
-import { Size } from "./Size.ts";
+type Size = "LARGE" | "MEDIUM" | "SMALL";
 
 export class Wallet {
   readonly _color: string;
