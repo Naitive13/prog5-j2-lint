@@ -1,3 +1,5 @@
+import { Size } from "./Size.ts";
+
 export class Wallet {
   readonly _color: string;
   readonly _size: Size;
@@ -20,7 +22,7 @@ export class Wallet {
 
   getVola(amount: number) {
     if (amount > this._money) {
-      throw "you don't have enough money";
+      throw new Error("you don't have enough money");
     }
     this._money -= amount;
     return amount;
